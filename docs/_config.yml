@@ -21,8 +21,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   MTM is an inofficial seminar series in the Department of Oceanography at
   Dalhousie University with the purpose of sharing tips and tricks that make
   scientific work easier.
-baseurl: "https://christophrenkl.github.io" # the subpath of your site, e.g. /blog
-url: "/mtm" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/mtm" # the subpath of your site, e.g. /blog
+url: "https://christophrenkl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  christophrenkl
 # github_username2: hansenjohnson
