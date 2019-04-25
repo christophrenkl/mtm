@@ -4,10 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Methods in Ten Minutes (MTM) is an inofficial seminar series in the Department
-of Oceanography at Dalhousie University with the purpose of sharing tips and
-tricks that make scientific work easier. The presentations are not necessarily
-restricted to 10 minutes, but the intention is to keep them short.
+Methods in Ten/Twenty/Thirty Minutes (MTM) is an informal and interactive
+lecture series open to everyone to share practical tips about methods and tools
+which are helpful for our everyday life as a grad students or researchers.
 
-If you have a topic you would like to know more about or give a presentation on,
-please contact us.
+If you have a topic in mind which you would like to present on or hear more
+about, please don't hesitate to <a href="/contact/">contact</a> us!
