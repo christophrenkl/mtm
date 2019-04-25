@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <p>
+    Methods in Ten/Twenty/Thirty Minutes (MTM) is an informal and interactive
+    lecture series open to everyone to share practical tips about methods and
+    tools which are helpful for our everyday life as a grad students or
+    researchers.
+  </p>
+  <p>
+    Our meetings are usually in the Riley Room (Room 3652, Life Science Centre,
+    Oceanography Wing) every other Friday at 11:30am.
+  </p>
+  <p>
+    Below is a list of upcoming and previous tutorials. If you have a topic in
+    mind which you would like to present on or hear more about, please don't
+    hesitate to <a href="/contact/">contact</a> us!
+  </p>
+
+  {{ content }}
+
+  <!-- get current time -->
+  {% assign current_date = site.time | date: "%s" %}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Upcoming Tutorials" }}</h2>
+    {%- for post in site.posts -%}
+      {% assign post_date = post.date | date: '%s' %}
+      {% if post_date >= current_date %}
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+      <h2 class="post-list-heading">{{ page.list_title | default: "Previous Tutorials" }}</h2>
+      {%- for post in site.posts -%}
+        {% assign post_date = post.date | date: '%s' %}
+        {% if post_date < current_date %}
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+            {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+            {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+  {%- endif -%}
+
+</div>
