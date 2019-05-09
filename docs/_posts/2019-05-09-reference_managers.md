@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reference Managing and Citing"
+title:  "Managing and Citing Literature"
 date:   2019-05-10
 ---
 
@@ -9,8 +9,8 @@ date:   2019-05-10
 
 **Summary:**
 We will introduce reference managers that can help you to keep your literature
-organized. We will also show how to create your list of references for your
-manuscripts.
+organized. We will also show how to cite the literature and create your list of
+references for your manuscripts.
 
 <!--
 ## Materials
