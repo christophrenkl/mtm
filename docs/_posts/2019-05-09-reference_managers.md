@@ -4,7 +4,7 @@ title:  "Managing and Citing Literature"
 date:   2019-05-10
 ---
 
-**Time:** Friday, May 9, 2019 at 11:30am
+**Time:** Friday, May 9, 2019 at 11:30am  
 **Location:** Riley Room (Room 3652, Life Science Centre, Oceanography Wing)
 
 **Summary:**
