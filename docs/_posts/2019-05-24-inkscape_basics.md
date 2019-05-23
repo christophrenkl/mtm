@@ -4,10 +4,10 @@ title:  "Inkscape Basics"
 date:   2019-05-24
 ---
 
-**Time:** Friday, May 24, 2019 at 11:30am
+**Time:** Friday, May 24, 2019 at 11:30am  
 **Location:** Riley Room (Room 3652, Life Science Centre, Oceanography Wing)
 
-**Summary:**
+**Summary:**  
 We will introduce the basics of Inkscape, an open-source vector graphics editor. The session will cover:
 - basics (lines & nodes, shapes, colour, text, ...)
 - layers
